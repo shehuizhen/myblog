@@ -1,0 +1,92 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>个人博客后台管理系统</title>
+    <link rel="stylesheet" href="/Public/Admin/css/pintuer.css">
+    <link rel="stylesheet" href="/Public/Admin/css/admin.css">
+    <link rel="stylesheet" href="/Public/css/page.css">
+    <script src="/Public/Admin/js/jquery.js"></script>
+    <script src="/Public/Admin/js/pintuer.js"></script>
+    <script src="/Public/Admin/js/respond.js"></script>
+    <script src="/Public/Admin/js/admin.js"></script>
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
+    <link href="/favicon.ico" rel="bookmark icon" />
+</head>
+
+<body>
+<div class="lefter">
+    <div class="logo"><a href="#" target="_blank"><img src="/Public/Admin/images/logo.png" alt="后台管理系统" /></a></div>
+</div>
+<div class="righter nav-navicon" id="admin-nav">
+    <div class="mainer">
+        <div class="admin-navbar">
+            <span class="float-right">
+            	<a class="button button-little bg-main" href="/" target="_blank">前台首页</a>
+                <a class="button button-little bg-yellow" href="/Admin/logout">注销登录</a>
+            </span>
+            <ul class="nav nav-inline admin-nav">
+                <li class="active"><a href="index.html" class="icon-home"> 开始</a>
+                    <ul>
+    
+    <li <?php if((CONTROLLER_NAME) == "Type"): ?>class="active"<?php endif; ?>
+        >
+        <a href="/Admin/typelist">分类管理</a>
+    </li>
+    <li 
+        <?php if((CONTROLLER_NAME) == "Article"): ?>class="active"<?php endif; ?>
+        ><a href="/Admin/articlelist">文章管理</a>
+    </li>
+</ul>
+
+                </li>
+            </ul>
+        </div>
+        <div class="admin-bread">
+            <span>您好，<?php echo ($adminuser['username']); ?>，欢迎您的光临。</span>
+            <ul class="bread">
+                <li><a href="index.html" class="icon-home"> 开始</a></li>
+                <li>后台首页</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="admin">
+    <?php if(empty($isdelete)): ?><form method="post" action="/Admin/dealtypedeletes">
+    <?php else: ?> 
+        <form method="post" action="/Admin/typerecoverys"><?php endif; ?>
+    <div class="panel admin-panel">
+        <div class="panel-head"><strong>评论列表</strong></div>
+        <table class="table table-hover">
+             <tr>
+                <th width="240">评论人</th>
+                <th width="*">评论内容</th>
+                <th width="100">操作</th>
+            </tr>
+            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                    <td><?php echo ($vo['name']); ?></td>
+                    <td><?php echo ($vo['content']); ?></td>
+                    <td>
+                        <a class="button border-blue button-little" href="/Admin/commentadd/<?php echo ($vo['id']); ?>">回复</a>
+                    </td>
+                </tr><?php endforeach; endif; ?>
+        </table>
+        <div class="pu_page mtm" >
+            <?php echo ($page); ?>
+        </div>
+    </div>
+    </form>
+    <br />
+    <p class="text-right text-gray">基于<a class="text-gray" target="_blank" href="#">MVC框架</a>构建</p>
+</div>
+</body>
+</html>
+
+
+</div>
+</body>
+</html>

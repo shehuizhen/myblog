@@ -1,0 +1,138 @@
+[ 2018-04-09T18:32:50+08:00 ] 127.0.0.1 /Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2018-04-09T19:13:53+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:14:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:25+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:25+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:26+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:27+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:16:55+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:17:33+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:17:52+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:18:40+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T19:18:54+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:07:47+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:16+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:16+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:17+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:17+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:17+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:17+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:17+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:18+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:08:18+08:00 ] 127.0.0.1 /Admin/index.html
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:11:53+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: 无法加载控制器:Typeadd
+
+[ 2018-04-09T20:13:05+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: Think\Model:getAllType方法不存在！
+
+[ 2018-04-09T20:16:04+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: Think\Model:getAllType方法不存在！
+
+[ 2018-04-09T20:16:35+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:18:36+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:19:17+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: XML标签语法错误
+
+[ 2018-04-09T20:46:29+08:00 ] 127.0.0.1 /Admin/typeedit/10
+ERR: 模板不存在:./myblog/Admin/View/Type/edit.html
+
+[ 2018-04-09T21:02:28+08:00 ] 127.0.0.1 /Admin/SHOW%20COLUMNS%20FROM%20%60blog_type%60
+ERR: 无法加载控制器:SHOW COLUMNS FROM `blog_type`
+
+[ 2018-04-09T21:04:14+08:00 ] 127.0.0.1 /Admin/SHOW%20COLUMNS%20FROM%20%60blog_type%60
+ERR: 无法加载控制器:SHOW COLUMNS FROM `blog_type`
+
+[ 2018-04-09T21:04:27+08:00 ] 127.0.0.1 /Admin/SHOW%20COLUMNS%20FROM%20%60blog_type%60
+ERR: 无法加载控制器:SHOW COLUMNS FROM `blog_type`
+
+[ 2018-04-09T21:08:45+08:00 ] 127.0.0.1 /Admin/SHOW%20COLUMNS%20FROM%20%60blog_type%60
+ERR: 无法加载控制器:SHOW COLUMNS FROM `blog_type`
+

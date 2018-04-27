@@ -1,0 +1,81 @@
+<extend name="Public:base"/>
+</extend>
+<block name="main">
+    <div class="admin">
+        <div class="tab">
+            <div class="tab-head">
+                <strong>
+                    分类管理
+                </strong>
+                <ul class="tab-nav">
+                    <li class="active">
+                        <a href="#tab-set">
+                            添加分类
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-body">
+                <br/>
+                <div class="tab-panel active" id="tab-set">
+                    <form action="/Admin/dealtypeadd" class="form-x" method="post">
+                        <div class="form-group">
+                            <div class="label">
+                                <label for="sitename">
+                                    分类名称
+                                </label>
+                            </div>
+                            <div class="field">
+                                <input class="input" data-validate="required:请填写您的分类名称" id="name" name="name" placeholder="分类名称" size="50" type="text"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="label">
+                                <label for="sitename">
+                                    所属类别
+                                </label>
+                            </div>
+                            <div class="field">
+                                <select class="select">
+                                    <option value="0">
+                                        主类别
+                                    </option>
+                                    <foreach item="vo" name="list">
+                                        <option value="{$vo['id']}">
+                                            {$vo['name']}
+                                        </option>
+                                    </foreach>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="label">
+                                <label for="readme">
+                                    分类描述
+                                </label>
+                            </div>
+                            <div class="field">
+                                <textarea class="input" cols="50" data-validate="required:请填写分类描述" name="desc" placeholder="请填写分类描述" rows="5">
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="form-button">
+                            <button class="button bg-main" type="submit">
+                                提交
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div style="height:20px; border-bottom:1px #DDD solid">
+        </div>
+        <p class="text-right text-gray" style="float:right">
+            基于
+            <a class="text-gray" href="#" target="_blank">
+                MVC框架
+            </a>
+            构建
+        </p>
+    </div>
+</block>

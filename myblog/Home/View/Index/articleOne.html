@@ -1,0 +1,97 @@
+<extend name="Public:base" />
+</extend>
+<block name='main'>
+<main id="main">
+    <div class="container">
+        <div class="row topspace">
+            <div class="col-sm-8 col-sm-offset-2">                 
+                    <article class="post">
+                        <header class="entry-header">
+                            <div class="entry-meta"> 
+                                <span class="posted-on"><time class="entry-date published" date="2013-06-17">{$list['created_at']|date="y-m-d",###}</time></span>            
+                            </div> 
+                            <h1 class="entry-title"><p style="font-size:25px;" rel="bookmark">{$list['title']}</p></h1>
+                        </header> 
+                        <div class="entry-content"> 
+                            <p><img alt="" src="{$list['cover']}"></p>
+                            {: htmlspecialchars_decode($list['content'])}
+                        </div> 
+                    </article><!-- #post-## -->
+            </div> 
+        </div> <!-- /row post  -->
+
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+
+                <div id="comments"> 
+                    <h3 class="comments-title">留言区</h3>
+                    <p style="color:red;" class="leave-comment">Leave a Comment</p>
+                    <div id="respond">
+                        <h3 id="reply-title">Leave a Reply</h3>
+                        <form action="/Home/CommentAdd" method="post" id="commentform" class="">
+                            <div class="form-group">
+                                <label for="inputComment">Comment</label>
+                                <input type="hidden" name="article_id" value="{$list['id']}">
+                                <textarea class="form-control" rows="6" name="content" id="content"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    
+                                </div>
+                                <div class="col-md-4 text-right">
+                                    <button type="submit" class="btn btn-action" onclick="">Submit</button>
+                                </div>
+                        </form>
+                    </div> <!-- /respond -->
+
+                    <br>
+                    <nav id="comment-nav-below" class="comment-navigation clearfix" role="navigation"><div class="nav-content">   
+                    </div></nav><!-- #comment-nav-below -->
+                    <br>
+
+                    <ol class="comments-list">
+                        <foreach name="comment" item="vo">
+                            <li class="comment">
+                                <div>
+                                    <img src="{$vo['cover']}" alt="Avatar" class="avatar">
+                                    <div class="comment-meta">
+                                        <span class="author"><a href="#">{$vo['nickname']}</a></span>
+                                        <span class="date"><a href="#">{$vo['created_at']|date="Y-m-d",###}</a></span>
+                                    </div>
+
+                                    <div class="comment-body">
+                                        {$vo['content']}
+                                    </div>
+                                </div>
+                                <empty name="vo['reply']">
+                                <else /> 
+                                    <ul class="children">
+                                        <li class="comment">
+                                            <div>
+                                                <img src="{$vo['reply']['cover']}" alt="Avatar" class="avatar">
+                                                                        
+                                                <div class="comment-meta">
+                                                    <span class="author" ><a href="#">{$vo['reply']['name']}</a></span>
+                                                    <span class="date"><a href="#">{$vo['reply']['created_at']|date="Y-m-d",###}</a></span>
+                                                </div><!-- .comment-meta -->
+
+                                                <div class="comment-body">
+                                                    {$vo['reply']['content']}
+                                                </div><!-- .comment-body -->
+                                            </div>
+                                        </li>
+                                    </ul><!-- .children -->
+                                </empty>
+                            </li>
+                        </foreach>
+                    </ol>
+                </div>
+            </div>
+        </div> <!-- /row comments -->
+        <div class="clearfix"></div>
+
+    </div>  <!-- /container -->
+
+</main>
+
+</block>

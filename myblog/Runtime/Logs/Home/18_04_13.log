@@ -1,0 +1,52 @@
+[ 2018-04-13T09:44:20+08:00 ] 127.0.0.1 /Home/about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-13T09:44:22+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T09:44:59+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:00:00+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:06:17+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:06:25+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:07:00+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:07:03+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T14:09:02+08:00 ] 127.0.0.1 /Home/Article
+ERR: 无法加载控制器:Article
+
+[ 2018-04-13T14:12:04+08:00 ] 127.0.0.1 /Home/about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-13T14:24:08+08:00 ] 127.0.0.1 /Home/about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-13T14:24:37+08:00 ] 127.0.0.1 /Home/about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-13T14:43:53+08:00 ] 127.0.0.1 /Home/Article
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( status=1 ) ORDER BY create_time LIMIT 0,25  
+
+[ 2018-04-13T16:43:59+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T17:26:19+08:00 ] 127.0.0.1 /Home/single.html
+ERR: 无法加载控制器:Single
+
+[ 2018-04-13T17:27:39+08:00 ] 127.0.0.1 /Home/articleOne6
+ERR: 无法加载控制器:ArticleOne6
+
+[ 2018-04-13T17:27:47+08:00 ] 127.0.0.1 /Home/articleOne6
+ERR: 无法加载控制器:ArticleOne6
+

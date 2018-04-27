@@ -1,0 +1,171 @@
+[ 2018-04-08T18:17:17+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-04-08T18:34:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-08T18:41:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/css/pintuer.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/pintuer.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/css/admin.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/pintuer.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:00+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/css/admin.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/css/pintuer.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/pintuer.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:03+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:15+08:00 ] 127.0.0.1 /s=Admin/Index/index
+ERR: 无法加载控制器:S=Admin
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/css/pintuer.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/css/admin.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/pintuer.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/respond.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:20:21+08:00 ] 127.0.0.1 /Public/Admin/js/admin.js
+ERR: 无法加载控制器:Public
+
+[ 2018-04-08T19:47:48+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:48:43+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:48:44+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:48:45+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:48:45+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:48:45+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:49:58+08:00 ] 127.0.0.1 /Home/Code/showCode
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:52:50+08:00 ] 127.0.0.1 /Code
+ERR: 无法加载控制器:Code
+
+[ 2018-04-08T19:56:45+08:00 ] 127.0.0.1 /login
+ERR: 无法加载控制器:Login
+
+[ 2018-04-08T20:44:12+08:00 ] 127.0.0.1 /logout.php
+ERR: 无法加载控制器:Logout.php
+
+[ 2018-04-08T20:47:59+08:00 ] 127.0.0.1 /logout.php
+ERR: 无法加载控制器:Logout.php
+
+[ 2018-04-08T20:56:15+08:00 ] 127.0.0.1 /system.html
+ERR: 无法加载控制器:System
+
+[ 2018-04-08T20:58:06+08:00 ] 127.0.0.1 /system.html
+ERR: 无法加载控制器:System
+

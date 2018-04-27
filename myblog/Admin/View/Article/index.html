@@ -1,0 +1,63 @@
+<extend name="Public:base" />
+</extend>
+<block name='main'>
+<div class="admin">
+    <empty name="deleted_at">
+        <form method="post" action="/Admin/dealarticledeletes">
+    <else /> 
+        <form method="post" action="/Admin/articlerecoverys">
+    </empty>
+    <div class="panel admin-panel">
+        <div class="panel-head"><strong>文章列表</strong></div>
+        <div class="padding border-bottom">
+            <a href="/Admin/articleadd">
+                <input type="button" id="btnAdd" class="button button-small border-green" value="添加文章" />
+            </a>
+            <empty name="deleted_at">
+                <input type="submit" class="button button-small border-yellow" value="批量删除" />
+            <else /> 
+                <input type="submit" class="button button-small border-yellow" value="恢复删除" />
+            </empty>
+            <a href="/Admin/articlelist/deleted_at/1">
+                <input type="button" class="button button-small border-blue" value="回收站" />
+            </a>
+        </div>
+        <table class="table table-hover">
+            <tr>
+                <th width="45">选择</th>
+                <th width="120">所属类别</th>
+                <th width="200">文章标题</th>
+                <th width="120">点击率</th>
+                <th width="180">发布时间</th>
+                <th width="100">操作</th>
+            </tr>
+            <foreach name="list" item="vo">
+                <tr>
+                    <td><input type="checkbox" name="id[]" value="{$vo['id']}" /></td>
+                    <td>{$vo['pname']}</td>
+                    <td>{$vo['title']}</td>
+                    <td>{$vo['hits']}</td>
+                    <td>{$vo['created_at']|date="Y-m-d",###}</td>
+                    <td>
+                        <empty name="deleted_at">
+                            <a class="button border-blue button-little" href="/Admin/commentlist/{$vo['id']}">查看评论</a> 
+                            <a class="button border-blue button-little" href="/Admin/articleedit/{$vo['id']}">修改</a> 
+                            <a class="button border-yellow button-little" href="/Admin/dealarticledelete/{$vo['id']}" >删除</a>
+                        <else /> 
+                             <a class="button border-yellow button-little" href="/Admin/articlerecovery/{$vo['id']}" onclick="">恢复</a>
+                        </empty>
+                    </td>
+                </tr>
+            </foreach>
+        </table>
+        <div class="pu_page mtm" >
+            {$page}
+        </div>
+    </div>
+    </form>
+    <br />
+    <p class="text-right text-gray" style="float:right">基于<a class="text-gray" target="_blank" href="#">MVC框架</a>构建</p>
+</div>
+</body>
+</html>
+</block>

@@ -1,0 +1,158 @@
+[ 2018-04-10T18:04:35+08:00 ] 127.0.0.1 /Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2018-04-10T18:10:59+08:00 ] 127.0.0.1 /Admin/TypeList
+ERR: XML标签语法错误
+
+[ 2018-04-10T18:12:14+08:00 ] 127.0.0.1 /Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2018-04-10T18:28:44+08:00 ] 127.0.0.1 /Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2018-04-10T18:30:20+08:00 ] 127.0.0.1 /Admin/content.html
+ERR: 无法加载控制器:Content
+
+[ 2018-04-10T18:39:08+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 无法加载控制器:Articlelist
+
+[ 2018-04-10T18:42:00+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-10T18:42:39+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-10T18:42:40+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-10T18:42:40+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-10T18:43:36+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:46:34+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:14+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:15+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:15+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:15+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:27+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:28+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:28+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:42+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:47:47+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:48:34+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:50:18+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:52:27+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:52:31+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:52:34+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:52:46+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:54:08+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:54:09+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:54:27+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:55:59+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T18:56:05+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T19:07:00+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = 4 LIMIT 1  
+
+[ 2018-04-10T19:10:38+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `typeid` = 4 LIMIT 1  
+
+[ 2018-04-10T19:12:59+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name` FROM `blog_article` WHERE `id` = null LIMIT 1  
+
+[ 2018-04-10T19:13:35+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getNameById方法不存在！
+
+[ 2018-04-10T19:14:10+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getNameById方法不存在！
+
+[ 2018-04-10T19:14:11+08:00 ] 127.0.0.1 /Admin/articlelist
+ERR: Think\Model:getNameById方法不存在！
+
+[ 2018-04-10T19:31:30+08:00 ] 127.0.0.1 /Admin/articleadd
+ERR: 1054:Unknown column 'path' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` ORDER BY concat(path,"-",id) asc 
+
+[ 2018-04-10T20:42:01+08:00 ] 127.0.0.1 /Admin/addeditorimg?dir=image
+ERR: 非法操作:uploadEditorImage
+
+[ 2018-04-10T20:43:33+08:00 ] 127.0.0.1 /Admin/dealarticleadd
+ERR: 1364:Field 'created_at' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_article` (`title`,`cover`,`author`,`typeid`,`desc`,`content`) VALUES ('qqwhj','ss.jpg','qwe','3','qweyu','iuytre')
+
+[ 2018-04-10T20:49:01+08:00 ] 127.0.0.1 /Admin/dealarticleadd
+ERR: 1364:Field 'created_at' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_article` (`title`,`cover`,`author`,`typeid`,`desc`,`content`) VALUES ('qqwhj','ss.jpg','qwe','3','qweyu','iuytre')
+
+[ 2018-04-10T20:49:24+08:00 ] 127.0.0.1 /Admin/dealarticleadd
+ERR: 1364:Field 'created_at' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_article` (`title`,`cover`,`author`,`typeid`,`desc`,`content`) VALUES ('qqwhj','ss.jpg','qwe','3','qweyu','iuytre')
+

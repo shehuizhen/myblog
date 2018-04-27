@@ -1,0 +1,132 @@
+[ 2018-04-11T14:22:15+08:00 ] 127.0.0.1 /sidebar-right.html
+ERR: 无法加载控制器:Sidebar-right
+
+[ 2018-04-11T14:36:10+08:00 ] 127.0.0.1 /about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-11T14:42:01+08:00 ] 127.0.0.1 /about.html
+ERR: 无法加载控制器:About
+
+[ 2018-04-11T15:59:56+08:00 ] 127.0.0.1 /sidebar-right.html
+ERR: 无法加载控制器:Sidebar-right
+
+[ 2018-04-11T16:14:32+08:00 ] 127.0.0.1 /sidebar-right.html
+ERR: 无法加载控制器:Sidebar-right
+
+[ 2018-04-11T16:27:09+08:00 ] 127.0.0.1 /blog.html
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-11T16:35:00+08:00 ] 127.0.0.1 /Home/articleOne/7
+ERR: 模板不存在:./myblog/Home/View/Index/articleOne.html
+
+[ 2018-04-11T19:33:37+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:34:17+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:34:40+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:50:10+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:50:22+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:50:43+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:51:14+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:51:15+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:51:25+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:51:38+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:51:53+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:52:02+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:52:57+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:52:58+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:52:59+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:53:17+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:54:06+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:54:16+08:00 ] 127.0.0.1 /Home/Ajax/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Ajax
+
+[ 2018-04-11T19:54:16+08:00 ] 127.0.0.1 /Erro/Erro500
+ERR: 无法加载控制器:Erro
+
+[ 2018-04-11T19:55:07+08:00 ] 127.0.0.1 /Erro/Erro500
+ERR: 无法加载控制器:Erro
+
+[ 2018-04-11T19:55:08+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:55:13+08:00 ] 127.0.0.1 /Home/Ajax/LoginFalse
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Ajax
+
+[ 2018-04-11T19:55:13+08:00 ] 127.0.0.1 /Erro/Erro500
+ERR: 无法加载控制器:Erro
+
+[ 2018-04-11T19:55:15+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:58:24+08:00 ] 127.0.0.1 /Home/layui/css/layui.css
+ERR: 无法加载控制器:Layui
+
+[ 2018-04-11T19:59:24+08:00 ] 127.0.0.1 /Home/Login
+ERR: 模板不存在:./myblog/Home/View/Login/index.html
+
+[ 2018-04-11T20:03:34+08:00 ] 127.0.0.1 /Erro/Erro500
+ERR: 无法加载控制器:Erro
+
+[ 2018-04-11T20:03:35+08:00 ] 127.0.0.1 /Erro/Erro500
+ERR: 无法加载控制器:Erro
+
+[ 2018-04-11T20:24:04+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T20:24:41+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T20:26:22+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T20:28:23+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T20:29:58+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T20:35:10+08:00 ] 127.0.0.1 /Home/userLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-11T21:01:32+08:00 ] 127.0.0.1 /Home/articleOne/4
+ERR: Think\Controller:where方法不存在！
+
